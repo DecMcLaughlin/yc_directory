@@ -16,7 +16,7 @@ const SearchForm = ({query}:{query?:string}) => {
                 {query && <SearchFormReset />}
 
                 <button type="submit" className="search-btn text-white" aria-label='Search'>
-                    <Search className='size-5'/>
+                    <Search className='size-5' aria-label="Search Starups"/>
                 </button>
             </div>
         </Form>
