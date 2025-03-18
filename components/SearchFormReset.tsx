@@ -12,7 +12,8 @@ const SearchFormReset = () => {
   return (
     <button className="search-button" 
                     type="reset"
-                    onClick={reset}>
+                    onClick={reset} 
+                    aria-label='Clear Search'>
                         <Link href="/" className="search-btn text-white">
                            <X className='size-5'/>
                         </Link>
